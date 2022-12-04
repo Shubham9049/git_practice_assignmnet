@@ -1,5 +1,10 @@
 let a=naman;
-for(let i=0;i<naman;i++){
+let bag =""
+for(let i=a.length-1;i>=0;i--){
     bag=bag+a[i]
-    console.log(bag)
+}
+if(bag == a){
+    console.log("It is Pelindrome");
+}else{
+    console.log("Not a Pelindrome");
 }
